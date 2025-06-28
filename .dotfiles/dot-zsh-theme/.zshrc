@@ -43,4 +43,4 @@ alias ....='cd ....'
 alias dot='/usr/bin/git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
 
 # Set editor as vim
-EDITOR=/usr/bin/vim
+export EDITOR=vim
