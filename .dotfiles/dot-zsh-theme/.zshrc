@@ -50,8 +50,8 @@ bindkey "^[[1;5D" backward-word
 # Aliases
 alias la='ls -a'
 alias ..='cd ..'
-alias ...='cd ...'
-alias ....='cd ....'
+alias ...='cd ..; cd ..'
+alias ....='cd ..; cd ..; cd ...'
 alias dot='/usr/bin/git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
 
 # Set editor as vim
