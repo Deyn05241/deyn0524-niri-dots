@@ -35,6 +35,9 @@ compinit
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 source $HOME/.dotfiles/dot-zsh-theme/everforest-dark.zsh
 
+# Fix delete key
+bindkey "^[[3~" delete-char
+
 # Aliases
 alias la='ls -a'
 alias ..='cd ..'
