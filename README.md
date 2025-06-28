@@ -5,10 +5,10 @@ These dotfiles are in progress! I am still in the middle of configuring Niri and
 This repository contains Deyn0524's custom dotfiles for [Niri](https://github.com/YaLTeR/niri), a scrollable tiling window manager for Wayland. It also contains a script **WRITTEN ONLY FOR ARCHLINUX AND DERIVATIVES** to automatically setup the needed programs, create symbolic links to the configuration files as well as download themes.
 
 # Preview:
-![[preview.png]]
-*CachyOS Linux *
+![Preview of the dotfiles in action.](preview.png)
+>CachyOS Linux running Niri, using the Everforest color scheme.
 1. **Color Scheme** - [Everforest Dark Hard](https://github.com/sainnhe/everforest)
-2. **Window Manager - **
+2. **Window Manager** -[Niri](https://github.com/YaLTeR/niri)
 3. **Terminal** - [Foot](https://codeberg.org/dnkl/foot) themed with [Everforest Dark Hard for Foot](https://gist.github.com/jakesco/c9b11f362f4ae0251ba2ca99a4e1e005)
 4. **Shell** - ZSH themed with [Everforest Dark theme](https://github.com/sainnhe/dotfiles/tree/master/.zsh-theme)
 5. **GTK Theme** - [Everforest Dark GTK Theme](https://github.com/Fausto-Korpsvart/Everforest-GTK-Theme)
