@@ -12,6 +12,7 @@ SAVEHIST=1000
 unsetopt beep
 bindkey -e
 
+# Add zinit and plugins
 source /usr/share/zinit/zinit.zsh
 zinit wait lucid for \
  atinit"ZINIT[COMPINIT_OPTS]=-C; zicompinit; zicdreplay" \
@@ -21,6 +22,7 @@ zinit wait lucid for \
  atload"!_zsh_autosuggest_start" \
     zsh-users/zsh-autosuggestions
 
+# Add powerlevel10k theme
 zinit ice depth=1; zinit light romkatv/powerlevel10k
 
 # End of lines configured by zsh-newuser-install
@@ -33,10 +35,17 @@ compinit
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh	
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# Apply everforest zsh theming
 source $HOME/.dotfiles/dot-zsh-theme/everforest-dark.zsh
 
 # Fix delete key
 bindkey "^[[3~" delete-char
+
+# Fix ctrl + arrow keys
+bindkey "^[[1;5C" forward-word
+bindkey "^[[1;5D" backward-word
+
 
 # Aliases
 alias la='ls -a'
