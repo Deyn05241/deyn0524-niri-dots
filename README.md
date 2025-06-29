@@ -42,12 +42,16 @@ mv deyn0524-niri-dots/.dotfiles ~/
 10. (OPTIONAL for **Wallpaper**) swaybg
 11. (OPTIONAL for **Screen locking**) swayidle, swaylock
 12. (OPTIONAL for **X11 apps**) xwayland-xsatellite
+13. (OPTIONAL for **Flatpak theming**) flatpak, ostree, appstream-glib
 ### STEP 2 - Setup configuration files
 
 # Roadmap:
 - [x] ZSH theming
 - [ ] Change fonts
 - [ ] Consistent theme across all apps and UI elements
+    - [x] GTK theming
+    - [x] Icons theming
+    - [x] Cursor theming
 	- [ ] Waybar theming
 	- [ ] Foot theming
 	- [ ] Fuzzel theming
