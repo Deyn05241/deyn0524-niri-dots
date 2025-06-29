@@ -49,9 +49,9 @@ mv deyn0524-niri-dots/.dotfiles ~/
 - [x] ZSH theming
 - [ ] Change fonts
 - [ ] Consistent theme across all apps and UI elements
-    - [x] GTK theming
-    - [x] Icons theming
-    - [x] Cursor theming
+	- [x] GTK theming
+	- [x] Icons theming
+	- [x] Cursor theming
 	- [ ] Waybar theming
 	- [ ] Foot theming
 	- [ ] Fuzzel theming
